@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yoon.myapplication.MainActivity">
+<ImageButton
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="50dp"
+    android:id="@+id/img_first"
+    android:src="@drawable/tom"
+    android:layout_width="350dp"
+    android:layout_height="350dp"
+    android:onClick="onClick"
+    android:background="#00000000"
+    android:scaleType="fitXY"
+    />
+
+
+
+    <ImageButton
+        android:id="@+id/img_original"
+        android:src="@drawable/tom"
+        style="@style/img_filter"
+        />
+
+
+    <ImageButton
+        android:id="@+id/img_grayscale"
+        android:layout_toRightOf="@id/img_original"
+        android:src="@drawable/tom"
+        style="@style/img_filter" />
+
+
+    <ImageButton
+        android:id="@+id/img_outline"
+        android:layout_toRightOf="@id/img_grayscale"
+        android:src="@drawable/tom"
+        style="@style/img_filter" />
+
+
+
+    <ImageButton
+        android:id="@+id/img_salt"
+        android:layout_toRightOf="@id/img_outline"
+        android:src="@drawable/tom"
+        style="@style/img_filter" />
+
+
+    <TextView
+        android:text="원본"
+        android:id="@+id/text_original"
+        style="@style/text_filter"
+
+        android:layout_alignLeft="@id/img_original"
+        android:layout_alignRight="@id/img_original"
+        />
+
+    <TextView
+        android:text="흑백"
+        android:id="@+id/text_grayscale"
+        style="@style/text_filter"
+        android:layout_alignLeft="@id/img_grayscale"
+        android:layout_alignRight="@id/img_grayscale"
+        />
+
+    <TextView
+        android:text="아웃라인"
+        android:id="@+id/text_outline"
+        style="@style/text_filter"
+        android:layout_alignLeft="@id/img_outline"
+        android:layout_alignRight="@id/img_outline"
+
+        />
+
+
+    <TextView
+        android:text="소금"
+        android:id="@+id/text_salt"
+        style="@style/text_filter"
+        android:layout_alignLeft="@id/img_salt"
+        android:layout_alignRight="@id/img_salt"
+        />
+
+
+
+
+
+
+
+</RelativeLayout>
