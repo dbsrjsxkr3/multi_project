@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="img_filter" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_marginBottom">40dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:clickable">true</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+
+    <style name="text_filter" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+</resources>
