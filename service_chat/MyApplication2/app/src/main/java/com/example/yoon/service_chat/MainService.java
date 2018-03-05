@@ -18,7 +18,7 @@ import java.net.Socket;
 public class MainService extends Service {
 //서비스에서 선언.
 
-    public String ip = "13.124.126.234"; // IP
+    public String ip = ""; // IP
     public int port = 2889; // PORT번호
     public DataInputStream networkReader;
     public DataOutputStream networkWriter;

@@ -20,7 +20,7 @@ import java.util.List;
 
 public class MyService extends Service {
 
-    public String ip = "13.124.126.234"; // IP
+    public String ip = ""; // IP
     public int port = 2889; // PORT번호
     public DataInputStream networkReader;
     public DataOutputStream networkWriter;
